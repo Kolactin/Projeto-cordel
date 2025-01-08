@@ -44,6 +44,12 @@ header a:hover{
     text-decoration: underline;
 }
 
+header p{
+    color: white;
+    text-align: right;
+    font-size: 0.75em;
+}
+
 article{
     height: auto;
     color: black;
