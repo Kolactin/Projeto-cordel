@@ -82,3 +82,20 @@ article div.imagem{
 .imagem p{
     margin: 15px;
 }
+
+footer{
+    background-color: black;
+    height: 60px;
+    margin: -8px;
+}
+
+footer p{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
