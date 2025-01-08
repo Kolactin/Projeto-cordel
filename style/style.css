@@ -71,14 +71,20 @@ article#two{
     color: white;
     background-image: url(../imagens/background001.jpg);
     background-size: 100% 100%;
+    background-position: right center;
+    background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.219);
 }
 
 article#four{
     color: white;
     background-image: url(../imagens/background002.jpg);
     background-size: 100% 100%;
+    background-position: right bottom;
+    background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.219);
 }
 
 article div.imagem{
@@ -87,6 +93,8 @@ article div.imagem{
     background-color: rgba(129, 129, 129, 0.781);
     background-size: 80% 80%;
     background-attachment: fixed;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
 }
 
 footer{
