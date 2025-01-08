@@ -11,22 +11,25 @@ header{
     margin: -15px -8px;
     padding:2vh;
     background-color: black;
-    background-size: 100% 100%;
-    color: white;
-    text-align: center;
 }
 
 header h1{
     font-family: "Passion One", serif;
     font-size: 7em;
 
+    padding: 20px;
+    margin: auto;
+    color: white;
+    text-align: center;
 }
 
 header h2{
     font-family: serif;
     font-size: 2em;
 
-    margin: 20px;
+    margin: auto;
+    color: white;
+    text-align: center;
 }
 
 header a{
