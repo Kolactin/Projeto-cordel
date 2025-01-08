@@ -18,14 +18,15 @@ header{
 
 header h1{
     font-family: "Passion One", serif;
-    font-size: 10em;
+    font-size: 7em;
 
-    margin: auto;
 }
 
 header h2{
     font-family: serif;
     font-size: 2em;
+
+    margin: 20px;
 }
 
 header a{
