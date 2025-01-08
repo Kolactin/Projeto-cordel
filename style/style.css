@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
-body{
+html, body{
+    min-height: 100vh;
     background-color: white;
 }
 
@@ -56,17 +57,17 @@ article{
     margin: auto;
     background-size: cover;
     background-attachment: fixed;
+    padding: 20px 0px 20px 30px;
 }
 
 article p{
     font-family: "Sriracha", serif;
     line-height: 2em;
-    font-size: 4em;
+    font-size: 3em;
     max-width: 700px;
 }
 
 article#two{
-    margin: -8px;
     color: white;
     background-image: url(../imagens/background001.jpg);
     background-size: 100% 100%;
@@ -74,7 +75,6 @@ article#two{
 }
 
 article#four{
-    margin: -8px;
     color: white;
     background-image: url(../imagens/background002.jpg);
     background-size: 100% 100%;
@@ -82,7 +82,7 @@ article#four{
 }
 
 article div.imagem{
-    margin: 0px 20px;
+    margin: 20px 0px;
     max-width: 700px;
     background-color: rgba(129, 129, 129, 0.781);
     background-size: 80% 80%;
@@ -90,7 +90,7 @@ article div.imagem{
 }
 
 .imagem p{
-    margin: 15px;
+    
 }
 
 footer{
