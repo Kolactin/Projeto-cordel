@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+
+header{
+    max-width: 1900px;
+    margin: -25px 0px 0px -20px;
+    padding:20vh;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    color: black;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+article{
+    height: auto;
+    color: black;
+    margin: auto;
+    font-size: 8em;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article#two{
+    color: white;
+    background-image: url(../imagens/background001.jpg);
+    background-size: 100% 100%;
+}
+
+article#two p{
+    color: white;
+}
