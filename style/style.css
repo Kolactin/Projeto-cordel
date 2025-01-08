@@ -63,6 +63,7 @@ article#two{
     color: white;
     background-image: url(../imagens/background001.jpg);
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 article#four{
@@ -76,6 +77,7 @@ article div.imagem{
     max-width: 700px;
     background-color: rgba(129, 129, 129, 0.781);
     background-size: 80% 80%;
+    background-attachment: fixed;
 }
 
 .imagem p{
